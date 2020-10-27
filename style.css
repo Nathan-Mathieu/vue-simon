@@ -36,6 +36,8 @@ button {
     margin: auto;
     margin-bottom: 1rem;
     width: 150px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.178);
 }
 
 .container {
@@ -43,7 +45,6 @@ button {
     flex-direction: column;
     align-items: center;
 }
-
 .all-squares {
     margin-top: 1rem;
 }
@@ -65,8 +66,8 @@ button {
     background-color: #ccc;
     cursor: pointer;
     margin: 0.5rem;
+    transition: 0.2s;
 }
-
 .bleu {
     background-color: #3498db;
 }
@@ -78,4 +79,17 @@ button {
 }
 .jaune {
     background-color: #f1c40f;
+}
+
+#hautGauche:hover {
+    background-color: #3498db75;
+}
+#hautDroite:hover {
+    background-color: #e74d3c79;
+}
+#basGauche:hover {
+    background-color: #2ecc7080;
+}
+#basDroite:hover {
+    background-color: #f1c40f7c;
 }

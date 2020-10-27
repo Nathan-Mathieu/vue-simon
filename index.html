@@ -17,20 +17,20 @@
             </header>
 
             <div class="container">
-                <button>NOUVELLE PARTIE</button>
+                <button @click="newGame">NOUVELLE PARTIE</button>
 
                 <div class="hr"></div>
-                <h3>Score :</h3>
+                <h3>Score : <span>{{score}}</span></h3>
                 <div class="hr"></div>
                 
                 <div class="all-squares">
                     <div>
-                        <span class="carre"></span>
-                        <span class="carre"></span>
+                        <span class="carre" id="hautGauche" @click="selectSquare('hautGauche')" :class="{ bleu: hautGauche }"></span>
+                        <span class="carre" id="hautDroite" @click="selectSquare('hautDroite')" :class="{ rouge: hautDroite }"></span>
                     </div>
                     <div>
-                        <span class="carre"></span>
-                        <span class="carre"></span>
+                        <span class="carre" id="basGauche" @click="selectSquare('basGauche')" :class="{ vert: basGauche }"></span>
+                        <span class="carre" id="basDroite" @click="selectSquare('basDroite')" :class="{ jaune: basDroite }"></span>
                     </div>
                 </div>
             </div>

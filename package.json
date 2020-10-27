@@ -1,0 +1,23 @@
+{
+  "name": "vue-app-simon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nathan-Mathieu/vue-simon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nathan-Mathieu/vue-simon/issues"
+  },
+  "homepage": "https://github.com/Nathan-Mathieu/vue-simon#readme",
+  "dependencies": {
+    "vue": "^2.6.12"
+  }
+}

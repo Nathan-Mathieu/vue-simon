@@ -4,7 +4,37 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <script src="./node_modules/vue/dist/vue.js"></script>
+        <link rel="stylesheet" href="./style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet" />
+        <script src="https://kit.fontawesome.com/ea0c1bb8e7.js" crossorigin="anonymous"></script>
         <title>Vue - Jeu du Simon</title>
     </head>
-    <body></body>
+    <body>
+        <div id="app">
+            <header>
+                <h1>{{title}}</h1>
+                <a href="https://github.com/Nathan-Mathieu/vue-simon" target="_blank"><i class="fab fa-github"></i></a>
+            </header>
+
+            <div class="container">
+                <button>NOUVELLE PARTIE</button>
+
+                <div class="hr"></div>
+                <h3>Score :</h3>
+                <div class="hr"></div>
+                
+                <div class="all-squares">
+                    <div>
+                        <span class="carre"></span>
+                        <span class="carre"></span>
+                    </div>
+                    <div>
+                        <span class="carre"></span>
+                        <span class="carre"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="./index.js"></script>
+    </body>
 </html>
